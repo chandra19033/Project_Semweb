@@ -1,0 +1,399 @@
+@prefix data: <https://brandcek.com/data#> .
+@prefix id: <https://brandcek.com/cek#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+#hpBrand
+id:HP1 data:hpBrand "Sony" .
+id:HP2 data:hpBrand "LG" .
+id:HP3 data:hpBrand "Xiaomi" .
+id:HP4 data:hpBrand "Samsung" .
+id:HP5 data:hpBrand "Oppo" .
+id:HP6 data:hpBrand "Vivo" .
+id:HP7 data:hpBrand "Lava" .
+id:HP8 data:hpBrand "Nokia" .
+id:HP9 data:hpBrand "Lenovo" .
+id:HP10 data:hpBrand "Apple" .
+
+#laptopBrand 
+id:LP1 data:laptopBrand "Apple" .
+id:LP2 data:laptopBrand "Dell" .
+id:LP3 data:laptopBrand "Lenovo" .
+id:LP4 data:laptopBrand "Asus" .
+id:LP5 data:laptopBrand "MSI" .
+id:LP6 data:laptopBrand "HP" .
+id:LP7 data:laptopBrand "Acer" .
+id:LP8 data:laptopBrand "Samsung" .
+id:LP9 data:laptopBrand "Toshiba" .
+
+#tvBrand 
+id:TV1 data:tvBrand "Samsung" .
+id:TV2 data:tvBrand "LG" .
+id:TV3 data:tvBrand "Sharp" .
+id:TV4 data:tvBrand "Sony" .
+id:TV5 data:tvBrand "Toshiba" .
+id:TV6 data:tvBrand "TCL" .
+id:TV7 data:tvBrand "Panasonic" .
+id:TV8 data:tvBrand "Xiaomi" .
+id:TV9 data:tvBrand "Aqua" .
+
+# Data Skripsi
+
+id:1 
+        data:no                 1;
+        data:name              "Chandra Wijaya ";
+        data:birth             "Bandung";
+        data:contact           "085283744839";
+        data:age               "21";
+        data:job               "Mahasiswa";
+        data:hasHP id:HP3;
+        data:hasLaptop id:LP4;
+        data:hasTV id:TV3;
+        .
+
+id:2
+        data:no                 2;
+        data:name              "Raden Muhammad Ihsan ";
+        data:birth             "Bandung";
+        data:contact           "089372722097";
+        data:age               "27";
+        data:job               "PNS";
+        data:hasHP id:HP1;
+        data:hasLaptop id:LP3;
+        data:hasTV id:TV7;
+        .
+
+id:3
+        data:no                 3;
+        data:name              "Muhamad Zein Nugraha ";
+        data:birth             "Soreang";
+        data:contact           "081872466795";
+        data:age               "32";
+        data:job               "Pedagang";
+        data:hasHP id:HP5;
+        data:hasLaptop id:LP2;
+        data:hasTV id:TV8;
+        .
+
+id:4
+        data:no                 4;
+        data:name              "Krist Subagja ";
+        data:birth             "Malang";
+        data:contact           "081782933746";
+        data:age               "26";
+        data:job               "Tidak Bekerja";
+        data:hasHP id:HP1;
+        data:hasLaptop id:LP3;
+        data:hasTV id:TV6;
+        .
+
+id:5
+        data:no                 5;
+        data:name              "Rifki lukman hasan ";
+        data:birth             "Soreang";
+        data:contact           "089726388476";
+        data:age               "41";
+        data:job               "Guru";
+        data:hasHP id:HP5;
+        data:hasLaptop id:LP6;
+        data:hasTV id:TV3;
+        .
+
+id:6
+        data:no                 6;
+        data:name              "Wawan Erwan";
+        data:birth             "Soreang";
+        data:contact           "086253748897";
+        data:age               "21";
+        data:job               "Mahasiswa";
+        data:hasHP id:HP7;
+        data:hasLaptop id:LP9;
+        data:hasTV id:TV7;
+        .
+
+id:7
+        data:no                 7;
+        data:name              "Toto Suharto";
+        data:birth             "Kabupaten Bandung";
+        data:contact           "083645566738";
+        data:age               "25";
+        data:job               "Dokter";
+        data:hasHP id:HP1;
+        data:hasLaptop id:LP2;
+        data:hasTV id:TV2;
+        .
+
+id:8
+        data:no                 8;
+        data:name              "Neneng Rustiniawati";
+        data:birth             "Cimahi";
+        data:contact           "082637466472";
+        data:age               "26";
+        data:job               "Bidan";
+        data:hasHP id:HP5;
+        data:hasLaptop id:LP8;
+        data:hasTV id:TV9;
+        .
+
+id:9
+        data:no                 9;
+        data:name              "Anisah Afifah";
+        data:birth             "Batununggal";
+        data:contact           "081637466372";
+        data:age               "22";
+        data:job               "Mahasiswa";
+        data:hasHP id:HP2;
+        data:hasLaptop id:LP9;
+        data:hasTV id:TV6;
+        .
+
+id:10
+        data:no                 10;
+        data:name              "Tuty Suprapti";
+        data:birth             "Ciamis";
+        data:contact           "08273848455";
+        data:age               "26";
+        data:job               "PNS";
+        data:hasHP id:HP3;
+        data:hasLaptop id:LP3;
+        data:hasTV id:TV1;
+        .
+
+id:11
+        data:no                 11;
+        data:name              "Muklas";
+        data:birth             "Bandung";
+        data:contact           "082536172736";
+        data:age               "29";
+        data:job               "Buruh";
+        data:hasHP id:HP1;
+        data:hasLaptop id:LP4;
+        data:hasTV id:TV5;
+        .
+
+id:12
+        data:no                 12;
+        data:name              "Dwi Nyoto";
+        data:birth             "Bandung";
+        data:contact           "081627366456";
+        data:age               "41";
+        data:job               "Petani";
+        data:hasHP id:HP4;
+        data:hasLaptop id:LP9;
+        data:hasTV id:TV5;
+        .
+
+id:13
+        data:no                 13;
+        data:name              "Rachmawati Rahayu";
+        data:birth             "Ciwidey";
+        data:contact           "085637266356";
+        data:age               "32";
+        data:job               "PNS";
+        data:hasHP id:HP2;
+        data:hasLaptop id:LP6;
+        data:hasTV id:TV9;
+        .
+
+id:14
+        data:no                 14;
+        data:name              "Abdul Muin";
+        data:birth             "Ciwidey";
+        data:contact           "08352415526";
+        data:age               "42";
+        data:job               "Dokter";
+        data:hasHP id:HP8;
+        data:hasLaptop id:LP8;
+        data:hasTV id:TV2;
+        .
+
+id:15
+        data:no                 15;
+        data:name              "Dede Rodiatul Munawaroh";
+        data:birth             "Jakarta";
+        data:contact           "08273847748";
+        data:age               "21";
+        data:job               "Mahasiswa";
+        data:hasHP id:HP3;
+        data:hasLaptop id:LP1;
+        data:hasTV id:TV6;
+        .
+
+id:16
+        data:no                 16;
+        data:name              "Novi Vidiani";
+        data:birth             "Bandung";
+        data:contact           "08273647748";
+        data:age               "21";
+        data:job               "Buruh";
+        data:hasHP id:HP1;
+        data:hasLaptop id:LP4;
+        data:hasTV id:TV3;
+        .
+
+id:17
+        data:no                 17;
+        data:name              "Firmansyah";
+        data:birth             "Bandung";
+        data:contact           "08273647748";
+        data:age               "18";
+        data:job               "Murid SMA";
+        data:hasHP id:HP6;
+        data:hasLaptop id:LP7;
+        data:hasTV id:TV8;
+        .
+
+id:18
+        data:no                 18;
+        data:name              "Tommy Nurul Muflikh";
+        data:birth             "Bandung";
+        data:contact           "082635666278";
+        data:age               "17";
+        data:job               "Murid SMA";
+        data:hasHP id:HP7;
+        data:hasLaptop id:LP8;
+        data:hasTV id:TV9;
+        .
+
+id:19
+        data:no                 19;
+        data:name              "Ayi Nining";
+        data:birth             "Bandung";
+        data:contact           "08263746622";
+        data:age               "17";
+        data:job               "Murid SMA";
+        data:hasHP id:HP8;
+        data:hasLaptop id:LP9;
+        data:hasTV id:TV1;
+        .
+
+id:20
+        data:no                 20;
+        data:name              "Deddy Setiawan";
+        data:birth             "Kabupaten Bandung";
+        data:contact           "082536255162";
+        data:age               "17";
+        data:job               "Murid SMA";
+        data:hasHP id:HP9;
+        data:hasLaptop id:LP1;
+        data:hasTV id:TV2;
+        .
+
+id:21
+        data:no                 21;
+        data:name              "Tatik Kurniasih";
+        data:birth             "Ciamis";
+        data:contact           "082635566372";
+        data:age               "18";
+        data:job               "Murid SMA";
+        data:hasHP id:HP10;
+        data:hasLaptop id:LP2;
+        data:hasTV id:TV3;
+        .
+
+id:22
+        data:no                 22;
+        data:name              "Sarwo Widodo";
+        data:birth             "Banjaran";
+        data:contact           "082635477364";
+        data:age               "29";
+        data:job               "PNS";
+        data:hasHP id:HP2;
+        data:hasLaptop id:LP3;
+        data:hasTV id:TV4;
+        .
+
+id:23
+        data:no                 23;
+        data:name              "Rayu Wulandhari";
+        data:birth             "Bandung";
+        data:contact           "082514425536";
+        data:age               "33";
+        data:job               "PNS";
+        data:hasHP id:HP3;
+        data:hasLaptop id:LP5;
+        data:hasTV id:TV9;
+        .
+
+id:24
+        data:no                 24;
+        data:name              "Rohmat";
+        data:birth             "Ciamis";
+        data:contact           "082514425536";
+        data:age               "35";
+        data:job               "Petani";
+        data:hasHP id:HP6;
+        data:hasLaptop id:LP1;
+        data:hasTV id:TV9;
+        .
+
+id:25
+        data:no                 25;
+        data:name              "Titi Setiati";
+        data:birth             "Bandung";
+        data:contact           "08625162637";
+        data:age               "20";
+        data:job               "Mahasiswa";
+        data:hasHP id:HP3;
+        data:hasLaptop id:LP5;
+        data:hasTV id:TV9;
+        .
+
+id:26
+        data:no                 26;
+        data:name              "Pipit Khairun Nisa";
+        data:birth             "Bandung";
+        data:contact           "08562737712";
+        data:age               "21";
+        data:job               "Mahasiswa";
+        data:hasHP id:HP10;
+        data:hasLaptop id:LP5;
+        data:hasTV id:TV4;
+        .
+
+id:27
+        data:no                 27;
+        data:name              "Asep Pasunda";
+        data:birth             "Bandung";
+        data:contact           "08263746627";
+        data:age               "26";
+        data:job               "PNS";
+        data:hasHP id:HP4;
+        data:hasLaptop id:LP5;
+        data:hasTV id:TV6;
+        .
+
+id:28
+        data:no                 28;
+        data:name              "Ahmad Ramdani";
+        data:birth             "Bandung";
+        data:contact           "08362516627";
+        data:age               "28";
+        data:job               "Pedagang";
+        data:hasHP id:HP5;
+        data:hasLaptop id:LP6;
+        data:hasTV id:TV7;
+        .
+
+id:29
+        data:no                 29;
+        data:name              "Anisa Rahmani";
+        data:birth             "Ciamis";
+        data:contact           "082635637462";
+        data:age               "30";
+        data:job               "Pedagang";
+        data:hasHP id:HP6;
+        data:hasLaptop id:LP7;
+        data:hasTV id:TV8;
+        .
+
+id:30
+        data:no                 30;
+        data:name              "Andre Lukman";
+        data:birth             "Cimahi";
+        data:contact           "08172636472";
+        data:age               "29";
+        data:job               "Pedagang";
+        data:hasHP id:HP7;
+        data:hasLaptop id:LP8;
+        data:hasTV id:TV9;
+        .
